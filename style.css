@@ -47,7 +47,7 @@ body {
   flex: 1 50%;
 }
 #card-white-top {
-  background-image: url('backround.jpg');
+  background-image: url('profile/backround.jpg');
   background-size: cover;
 }
 
