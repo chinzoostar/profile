@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway|Roboto+Slab');
+
+#img-profile {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  /*background: #F7F9FC;*/
+  background: #333;
+}
+
+.container {
+  display: flex;
+  width: 700px;   /* This sets the width */
+  margin: 40px auto; /* This automatically sets left/right margins */
+  color: white;
+  height: 90%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 10px, 10px, 30px, rgba(0,0,0,0,1);
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  border: 1px solid black;
+  text-align: center;
+  padding: 40px;
+  /*margin: 10px;*/
+  flex: 0 50%;
+
+}
+
+.card-right {
+  background-color: white;
+  box-shadow: 10px, 10px, 30px, rgba(0,0,0,0,1);
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  border: 1px solid black;
+  text-align: center;
+  padding: 40px;
+  /*margin: 10px;*/
+  flex: 1 50%;
+}
+#card-white-top {
+  background-image: url('images/backround.jpg');
+  background-size: cover;
+}
+
+.card-white-sub {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 10px, 10px, 30px, rgba(0,0,0,0,1);
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  padding: 40px;
+  margin: 10px;
+  width: 128.6px
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 30px;
+  color: rgb(230, 230, 230);
+}
+
+.button {
+  /*border: 2px solid #c1deec;*/
+  border: 1px solid white;
+  display: inline-block;
+  height: 30px;
+  line-height: 32px;
+  position: relative;
+  font-size: 12px;
+  /*padding: 0px, 300px;*/
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.button:hover {
+  color: #EB4511;
+}
+
+.cart-left-top {
+  /*height: 75%;*/
+  height: calc(100% - 200px)
+}
+
+.cart-left-bottom {
+  /*height: 25%;*/
+  height: 200px;
+}
+
+.icon {
+  color: rgb(230, 230, 230);
+}
+
+.icon:hover {
+  color: #EB4511;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+}
+
+#red-link{
+  color: #EB4511;
+}
+
+#green-link{
+  color: #0C7C59;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
